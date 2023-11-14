@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "REST based Ecommerce api only",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Rish72/E-Commerce_API/issues"
   },
-  "homepage": "https://github.com/Rish72/E-Commerce_API#readme"
+  "homepage": "https://github.com/Rish72/E-Commerce_API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
