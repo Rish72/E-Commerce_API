@@ -8,9 +8,16 @@ export default class ProductController {
     }
 
     addProduct(req, res){
-        console.log(req.body);
-        console.log("this is post request");
-        res.status(200).send("Product added");
+        const { name , price , sizes} = req.body;
+        console.log("name received from requst body ", name);
+        const newProduct = {
+            name: name,
+            price : parseFloat(price),
+            sizes: sizes.split(','),
+            imgUrl : req.file.filename,
+        }
+        const result = ProductModel.add(newProduct);
+        res.status(201).send(result);
     }
 
     getOneProduct(req, res){res.send("One Products")}
