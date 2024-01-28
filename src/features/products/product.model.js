@@ -11,6 +11,11 @@ export default class ProductModel{
         this.sizes = sizes;
     }
 
+    static getOne(id){
+        const product = products.find( prod => prod.id == id );
+        return product;
+    }
+
     static getAll(){
         return products;
     }

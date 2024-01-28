@@ -20,7 +20,18 @@ export default class ProductController {
         res.status(201).send(result);
     }
 
-    getOneProduct(req, res){res.send("One Products")}
+    getOneProduct(req, res){
+        const id = req.params.id;
+        const product = ProductModel.getOne(id);
 
-    rateProduct(req, res){res.send("Rate Products")}
+        if(product){
+            res.status(200).send("One Products ");
+        }else{
+            res.status(404).send("Product not found");
+        }
+    }
+
+    rateProduct(req, res){
+        res.send("Rate Products")}
+
 }
