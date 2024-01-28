@@ -11,6 +11,7 @@ const router = express.Router();
 router.get('/all', productController.getAllProducts);
 router.post('/', upload.single('imgUrl'), productController.addProduct); // upload.array can also be added for multiple file uploads
 
+router.get('/filter', productController.filterProduct);
 router.get('/:id', productController.getOneProduct);
 router.post('/rateProduct', productController.rateProduct);
 

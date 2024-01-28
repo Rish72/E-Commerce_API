@@ -25,13 +25,26 @@ export default class ProductController {
         const product = ProductModel.getOne(id);
 
         if(product){
-            res.status(200).send("One Products ");
+            res.status(200).send(product);
         }else{
             res.status(404).send("Product not found");
         }
     }
 
+    // localhost:3000/api/products/filter?minPrice=20&maxPrice=30&category=cloths
+
+    filterProduct(req, res){ // jese req params hota h vese hi req query hota h jo as a query data deta h
+        const minPrice = req.query.minPrice;
+        const maxPrice = req.query.maxPrice;
+        const category = req.query.category;
+
+        console.log("req query", req.query);
+        const result = ProductModel.filter(minPrice, maxPrice, category);
+        res.status(200).send(result);
+    }
+
     rateProduct(req, res){
-        res.send("Rate Products")}
+        res.send("Rate Products")
+    }
 
 }
