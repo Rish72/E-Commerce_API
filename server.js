@@ -2,7 +2,7 @@ import  express  from "express";
 import router from "./src/features/products/product.routes.js";
 import bodyParser from "body-parser";
 
-const PORT = 3000;
+const PORT = 3200;
 const app = express();
 app.use(bodyParser.json());
 
