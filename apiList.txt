@@ -1,0 +1,15 @@
+Product CONTROLLER
+
+    ADD Product
+    GET PRODUCTS
+    GET ONE PRODUCTSFILTER PRODUCTS
+    
+    RATE PRODUCT
+    ADD ITEMS TO CART
+    GET ITEMS OF CART
+    REMOVE ITEM FROM CART
+
+
+USER CONTROLLER
+    SignUp - Email, Name, Password, TypeOfUSer(Seller, Customer) 
+    SignIn - Email, Password
