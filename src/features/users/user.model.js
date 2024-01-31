@@ -15,7 +15,8 @@ export default class UserModel{
         return user;
     }
 
-    static SignUp(name, email, password, type){
+    static SignUp(data){
+        const {name, email, password, type} = data;
         const newUser = new UserModel(users.length+1, name, email, password, type)
         return newUser;
     }
