@@ -1,6 +1,6 @@
 
 export default class UserModel{
-    constructor(id, name, email, password, type){ //!type is not added yet and to be added
+    constructor(id, name, email, password, type){
         this.id = id;
         this.name = name;
         this.email = email;
