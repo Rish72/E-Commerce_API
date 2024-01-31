@@ -20,9 +20,13 @@ export default class UserModel{
         const newUser = new UserModel(users.length+1, name, email, password, type)
         return newUser;
     }
+    
+    static getAll(){
+        return users;
+    }
 }
 
-var users = [
+let users = [
     {
         id : 1, 
         name : "Seller",
