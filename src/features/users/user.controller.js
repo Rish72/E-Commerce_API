@@ -20,7 +20,7 @@ export default class UserController{
                             userID: user.id, 
                             email : user.email
                         }, 
-                            '0$8M^6eAiLhtxat', 
+                            'y4dBnKTsZb', 
                         {
                             expiresIn: "2 days"
                         }
