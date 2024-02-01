@@ -9,20 +9,20 @@ const basicAuthorizer = (req, res, next) => {
     if(!authHeader){
         res.status(401).send("Unauthorized access");
     }else{
-        console.log(authHeader);
+        // console.log(authHeader);
         // agar h to hume extract krna pdega data ko 
         // jo bhi client credentials server ko bhejega jo base64 encoding format me hoga 
 
         // 2 Extract the data       authHeader = [Basic //* qwerty2345asdfklj]; is required
         const base64Credentials = authHeader.replace('Basic ','');
-        console.log(base64Credentials);
+        // console.log(base64Credentials);
 
 
         // 3 Decoding the received Credentials of base64
         const decodedCreds = Buffer.from(base64Credentials, 'base64').toString('utf8');
-        console.log(decodedCreds); //[username : password]
+        // console.log(decodedCreds); //[username : password]
         const finalCreds = decodedCreds.split(':'); // ye ek array h jo 2 cheez convert karti h email and password  
-        console.log(finalCreds);
+        // console.log(finalCreds);
 
 
         const user = UserModel.getAll().find( user => user.email == finalCreds[0] && user.password == finalCreds[1]);
