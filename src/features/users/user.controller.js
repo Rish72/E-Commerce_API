@@ -25,7 +25,7 @@ export default class UserController{
                             expiresIn: "2 days"
                         }
                     )
-
+                // 2 send the token to user 
                return res.status(200).send(token);
             }else{
                 res.status(400).send("Invalid Credentials");
