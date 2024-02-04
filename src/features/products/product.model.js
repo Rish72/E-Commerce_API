@@ -1,4 +1,4 @@
-
+import UserModel from "../users/user.model.js";
 
 export default class ProductModel{
     constructor(id, name, price, desc, imgUrl, category, sizes){
@@ -37,6 +37,34 @@ export default class ProductModel{
                 );
         })
         return result;
+    }
+
+    static rating(data){
+        const {userID, productID, rating} = data;
+        // 1 CHECK THE USER
+        const user = UserModel.getAll().find( user => user.id == userID);
+        if(!user){
+            return "User not found";
+        }
+        // 2 CHECK THE PRODUCT
+       const prod = products.find( prod => prod.id == productID);
+        if(!prod){
+            return "Product is not found"
+        } 
+        // 3 CHECK FOR THE RATING IF EXISTS OR NOT
+        if(!prod.rating){
+            prod.rating = [];
+            console.log("Rating property should be add3d "+prod.rating);
+            prod.rating.push({userID: userID, rating: rating});
+        }else{
+            const ratedProductInd = prod.rating.findIndex( rt => rt.userID === userID );
+            if(ratedProductInd >= 0){
+                prod.rating[ratedProductInd] = {userID: userID, rating: rating};
+            }else {
+                prod.rating.push( {userID: userID, rating: rating} );
+            }
+        }
+
     }
 }
 

@@ -8,7 +8,7 @@ const jwtAuth = (req, res, next) => {
     }
     try {
         const payload = jwt.verify(token, 'y4dBnKTsZb');
-        console.log("payload "+ payload);
+        // console.log("payload "+ payload);
     } catch (error) {
         console.log(error);
         res.status(400).send("error");

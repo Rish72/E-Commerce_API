@@ -4,7 +4,7 @@ import router from "./src/features/products/product.routes.js";
 import userRouter from "./src/features/users/user.routes.js";
 import jwtAuth from "./src/middlewares/jwtAuth.middleware.js";
 
-const PORT = 3200;
+const PORT = 3000;
 const app = express();
 app.use(bodyParser.json());
 

@@ -1,8 +1,9 @@
 Product CONTROLLER
 
-    ADD Product
-    GET PRODUCTS
-    GET ONE PRODUCTSFILTER PRODUCTS
+    ADD Product         DONE
+    GET PRODUCTS        DONE
+    GET ONE PRODUCTS    DONE
+    FILTER PRODUCTS     DONE
     
     RATE PRODUCT
     ADD ITEMS TO CART
@@ -11,5 +12,5 @@ Product CONTROLLER
 
 
 USER CONTROLLER
-    SignUp - Email, Name, Password, TypeOfUSer(Seller, Customer) 
-    SignIn - Email, Password
+    SignUp - Email, Name, Password, TypeOfUSer(Seller, Customer)  DONE
+    SignIn - Email, Password        DONE

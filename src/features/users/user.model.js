@@ -11,7 +11,7 @@ export default class UserModel{
 
     static SignIn(data){
         const {email, password} = data;
-        const user = users.find( (user) => user.email === email && user.password === password);
+        const user = users.find( (user) => user.email === email && user.password === password); // Short circuiting
         console.log("user in model");
         return user;
     }
@@ -34,5 +34,12 @@ let users = [
         email : "seller@ecom.com",
         password : "seller12",
         type : "Seller"
+    },
+    {
+        id: 2, 
+        "name" : "Customer",
+        "email" : "customer@ecom.com",
+        "password" : "customer1",
+        type : "Customer"
     }
 ]
