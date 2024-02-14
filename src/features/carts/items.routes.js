@@ -5,5 +5,6 @@ const itemController = new ItemController();
 const cartRouter = express.Router();
 
 cartRouter.post('/', itemController.addToCart);
+cartRouter.get('/', itemController.showItems);
 
 export default cartRouter;

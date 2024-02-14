@@ -12,5 +12,11 @@ export default class ItemController{
         res.status(201).send("cart is updated");
 
     }
+    showItems(req, res){
+        const userID = req.userID; // this is because user can pass any id but with this if will get only the logged in user's data
+
+        const items = ItemModel.get(userID);
+        res.status(200).send(items)
+    }
 
 }
