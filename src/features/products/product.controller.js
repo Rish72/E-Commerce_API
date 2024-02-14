@@ -45,7 +45,6 @@ export default class ProductController {
 
     rateProduct(req, res){
         let error = ProductModel.rating(req.query);
-        console.log(req.query);
         if(error){
             return res.status(400).send(error);
         }else {
