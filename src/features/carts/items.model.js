@@ -24,7 +24,6 @@ export default class ItemModel{
         const carItem = new ItemModel(productID, userID, quantity)
         carItem.id = cartItems.length + 1;
         cartItems.push(carItem);
-        return cartItems;
         
     }
 
@@ -40,6 +39,15 @@ export default class ItemModel{
             return items;
         }else {
             return "User Not Found";
+        }
+    }
+
+    static delete(itemID, userID){
+        const itemIndex = cartItems.findIndex( i => i.id == itemID && i.userID == userID)
+        if(itemIndex == -1){
+            return "Item not found";
+        }else {
+            cartItems.splice(itemIndex,1);
         }
     }
 

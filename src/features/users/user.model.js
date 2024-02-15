@@ -12,7 +12,6 @@ export default class UserModel{
     static SignIn(data){
         const {email, password} = data;
         const user = users.find( (user) => user.email === email && user.password === password); // Short circuiting
-        console.log("user in model");
         return user;
     }
 
