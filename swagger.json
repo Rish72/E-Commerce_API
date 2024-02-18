@@ -5,10 +5,18 @@
         "description" : "APIs for Ecommerce website",
         "title" : "E-Commerce APIs"
     },
-    "host" : "`localhost:3000",
+    "host" : "localhost:3000",
+    "securityDefinitions":{
+        "JWT" : {
+            "in" : "headers",
+            "name" : "Authorization",
+            "type" : "apiKey"
+        }
+    },
     "paths" : {
         "/api/users/signIn" : {
             "post" : {
+                "tags": ["Users"],
                 "summary" : "Login",
                 "description" : "User Login to get the JWT token",
                 "parameters" : [
@@ -35,6 +43,26 @@
                     },
                     "400" : {
                         "description" : "Invalid Credentials"
+                    }
+                }
+            }
+        },
+        "/api/products/all" : {
+            "get" : {
+                "tags" : ["Products"],
+                "summary" : "All Products",
+                "description" : "User will receive All the products",
+                "security" : [
+                    {
+                        "JWT" : {}
+                    }
+                ],
+                "responses" : {
+                    "200" : {
+                        "description" : "OK"
+                    },
+                    "401" : {
+                        "description" : "Unauthorized"
                     }
                 }
             }
