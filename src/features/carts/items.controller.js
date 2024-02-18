@@ -27,7 +27,7 @@ export default class ItemController{
             res.status(400).send("Unauthorized ACcess");
         }
         const error = ItemModel.delete(itemID, userID);
-        if(error){
+        if(error){  
             res.status(400).send(error)
         }else{
             return res.status(200).send("Deleted");
