@@ -1,0 +1,44 @@
+{
+    "swagger": "2.0",
+    "info" : {
+        "version" : "1.0.0",
+        "description" : "APIs for Ecommerce website",
+        "title" : "E-Commerce APIs"
+    },
+    "host" : "`localhost:3000",
+    "paths" : {
+        "/api/users/signIn" : {
+            "post" : {
+                "summary" : "Login",
+                "description" : "User Login to get the JWT token",
+                "parameters" : [
+                    {
+                        "in": "body",
+                        "name" : "body",
+                        "description" : "User Credentials",
+                        "schema" : {
+                            "type" : "object",
+                            "properties" : {
+                                "email" : {
+                                    "type" : "string"
+                                },
+                                "password" : {
+                                    "type" : "string"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "responses" : {
+                    "200" : {
+                        "description" : "OK"
+                    },
+                    "400" : {
+                        "description" : "Invalid Credentials"
+                    }
+                }
+            }
+        }
+    }
+    
+}
