@@ -25,6 +25,9 @@ app.get('/', (req, res) => {
     res.send("Welcome to REST APIs")
 })
 
+app.use((req, res) => {
+    return res.status(404).send("API not found ")
+})
 
 app.listen( PORT, () => {
     console.log(`Server is listening at ${PORT}`);
