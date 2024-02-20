@@ -71,6 +71,38 @@
                     }
                 }
             }
+        },
+        "/api/products/{id}" : {
+            "get" : {
+                "tags" : ["Get One Product"],
+                "summary" : "One Product",
+                "description" : "User will receive one product of given ID",
+                "security" : [
+                    {
+                        "JWT" : {}
+                    }
+                ],
+                "parameters": [
+                    {
+                      "in": "path",
+                      "name": "id",
+                      "required": true,
+                      "description": "ID of the product to retrieve",
+                      "schema": {
+                        "type": "integer",
+                        "format": "int64"
+                      }
+                    }
+                  ],
+                "responses" : {
+                    "200" : {
+                        "description" : "OK"
+                    },
+                    "401" : {
+                        "description" : "Unauthorized"
+                    }
+                }
+            }
         }
     }
     
