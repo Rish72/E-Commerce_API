@@ -9,7 +9,7 @@ import jwtAuth from "./src/middlewares/jwtAuth.middleware.js";
 import cartRouter from "./src/features/carts/items.routes.js";
 import apiDocs from "./swagger.json" assert { type: "json" }; // shows error
 import loggerMiddleware from "./src/middlewares/logger.middleware.js";
-import connectTOMongoDB from "./src/config/mongodb.js";
+import { connectTOMongoDB } from "./src/config/mongodb.js";
 
 const PORT = 3000;
 const app = express();
