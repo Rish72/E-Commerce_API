@@ -12,7 +12,7 @@ const jwtAuth = (req, res, next) => {
         // console.log("payload "+ payload);
     } catch (error) {
         console.log(error);
-        res.status(400).send("error");
+        res.status(400).send(error);
     }
 
     next();
