@@ -1,5 +1,8 @@
 //Third Party packages should be on top
 import express from "express";
+import dotenv from "dotenv";
+// going to load all the environment variable
+dotenv.config();
 import swagger from "swagger-ui-express";
 import cors from "cors";
 import bodyParser from "body-parser";
@@ -13,6 +16,7 @@ import { connectTOMongoDB } from "./src/config/mongodb.js";
 
 const PORT = 3000;
 const app = express();
+
 app.use(bodyParser.json());
 
 
