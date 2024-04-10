@@ -1,32 +1,34 @@
 import UserModel from "../users/user.model.js";
 
 export default class ProductModel{
-    constructor(id, name, price, desc, imgUrl, category, sizes){
-        this.id = id;
+    constructor( name, price, desc, imgUrl, category, sizes,id){
         this.name = name ;
         this.price = price ;
         this.desc = desc ;
         this.imgUrl = imgUrl ;
         this.category = category;
         this.sizes = sizes;
+        this._id = id;
     }
 
-    static getOne(id){
-        const product = products.find( prod => prod.id == id );
-        return product;
-    }
+    // static getOne(id){
+    //     const product = products.find( prod => prod.id == id );
+    //     return product;
+    // }
 
-    static getAll(){
-        return products;
-    }
+    // static getAll(){
+    //     return products;
+    // }
 
-    static add(productObj){
-        new ProductModel(
-            productObj.id = products.length +1,
-        )
-        products.push(productObj);
-        return productObj;
-    }
+    // static add(productObj){
+        //1.get the db
+        //2. get the collection
+    //     new ProductModel(
+    //         productObj.id = products.length +1,
+    //     )
+    //     products.push(productObj);
+    //     return productObj;
+    // }
 
     static filter(minPrice , maxPrice, category){
         const result = products.filter( (prod) => {

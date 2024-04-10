@@ -22,3 +22,81 @@
  Sat Apr 06 2024 16:36:23 GMT+0530 (India Standard Time) + ". LogData: " + {"name ":"Seller 4","email":"seller3@ecom.com","password":"seller3","type":"seller"}/api/users/signUp
  Sat Apr 06 2024 16:37:33 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Seller 4","email":"seller3@ecom.com","password":"seller3","type":"seller"}/api/users/signUp
  Sat Apr 06 2024 16:37:48 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Seller 4","email":"seller3@ecom.com","password":"seller3","type":"seller"}/api/users/signUp
+ Sun Apr 07 2024 00:10:00 GMT+0530 (India Standard Time) + ". LogData: " + {"email":"user1@post.com","password":"password2"}/api/products/all
+ Sun Apr 07 2024 00:11:35 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"rishab","email":"rishi@ecom.com","password":"seller3","type":"seller"}/api/users/signUp
+ Sun Apr 07 2024 00:12:11 GMT+0530 (India Standard Time) + ". LogData: " + {"email":"user1@post.com","password":"password2"}/api/products/all
+ Sun Apr 07 2024 00:13:44 GMT+0530 (India Standard Time) + ". LogData: " + {"email":"user1@post.com","password":"password2"}/api/products/all
+ Sun Apr 07 2024 15:27:42 GMT+0530 (India Standard Time) + ". LogData: " + {"email":"user1@post.com","password":"password2"}/api/products/all
+ Sun Apr 07 2024 15:27:54 GMT+0530 (India Standard Time) + ". LogData: " + {"email":"user1@post.com","password":"password2"}/api/products/all
+ Sun Apr 07 2024 15:28:25 GMT+0530 (India Standard Time) + ". LogData: " + {"email":"user1@post.com","password":"password2"}/api/products/all
+ Sun Apr 07 2024 15:32:22 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:33:49 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:36:03 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:38:55 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:39:16 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:40:59 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:42:06 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:42:26 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:43:04 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:44:01 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:48:00 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:48:59 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:49:42 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 15:50:09 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:00:23 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:01:54 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:03:13 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:08:28 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Sun Apr 07 2024 16:08:56 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:12:27 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:12:56 GMT+0530 (India Standard Time) + ". LogData: " + {"name":"Hoodies","price":20,"desc":"An anime Hoodies","imgUrl":"https://images-na.ssl-images-amazon.com/images/I/51FtXmlPxpL.jpg","category":"Category1","sizes":["XS","S","M","L","XL"]}/api/products/
+ Sun Apr 07 2024 16:16:05 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Sun Apr 07 2024 16:36:31 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Sun Apr 07 2024 16:37:45 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Sun Apr 07 2024 16:38:40 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Sun Apr 07 2024 16:39:30 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Sun Apr 07 2024 16:39:56 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Tue Apr 09 2024 21:13:29 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Tue Apr 09 2024 21:13:49 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:16:34 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/
+ Tue Apr 09 2024 21:19:29 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:19:54 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:20:48 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:25:01 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:25:18 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:25:59 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/1
+ Tue Apr 09 2024 21:27:23 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/1
+ Tue Apr 09 2024 21:27:29 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:27:36 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/66127f046f8856d5ef2b6de5
+ Tue Apr 09 2024 21:28:03 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/1
+ Tue Apr 09 2024 21:29:34 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/1
+ Tue Apr 09 2024 21:29:38 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/all
+ Tue Apr 09 2024 21:29:44 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/66127f046f8856d5ef2b6de5
+ Tue Apr 09 2024 21:30:16 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/66127f046f8856d5ef2b6de5
+ Tue Apr 09 2024 21:31:08 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/66127f046f8856d5ef2b6de5
+ Tue Apr 09 2024 21:31:38 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/66127f046f8856d5ef2b6de5
+ Wed Apr 10 2024 13:12:16 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?minPrice=200
+ Wed Apr 10 2024 13:12:53 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?minPrice=200
+ Wed Apr 10 2024 13:13:13 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?minPrice=200
+ Wed Apr 10 2024 13:15:22 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?minPrice=200
+ Wed Apr 10 2024 13:16:10 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?minPrice=200&maxPrice=450
+ Wed Apr 10 2024 13:16:36 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?maxPrice=450
+ Wed Apr 10 2024 13:19:51 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?maxPrice=4500
+ Wed Apr 10 2024 13:21:52 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?maxPrice=4500&category=cat1
+ Wed Apr 10 2024 13:22:02 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/filter?maxPrice=4500&category=cat2
+ Wed Apr 10 2024 13:38:20 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?userID=1&productID=1&rating=4
+ Wed Apr 10 2024 13:39:09 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?userID=1&productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 13:40:53 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?userID=661197607ff3d243db5a232c&productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 13:43:32 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 13:44:14 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 13:44:58 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 13:45:21 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 13:53:36 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/66127f046f8856d5ef2b6de5
+ Wed Apr 10 2024 14:03:18 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:08:06 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:09:27 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:09:58 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:10:32 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:12:37 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:13:08 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 14:14:01 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4

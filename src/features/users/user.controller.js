@@ -25,7 +25,7 @@ export default class UserController {
           // the secret key is created or us key ko user ko assign kiya jata h taki use verify kara jaa sake
           const token = jwt.sign(
             {
-              userID: user.id,
+              userID: user._id,
               email: user.email,
             },
             process.env.JWT_SECRET,
