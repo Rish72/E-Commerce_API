@@ -100,3 +100,37 @@
  Wed Apr 10 2024 14:12:37 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
  Wed Apr 10 2024 14:13:08 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
  Wed Apr 10 2024 14:14:01 GMT+0530 (India Standard Time) + ". LogData: " + {}/api/products/rateProduct?productID=66127f046f8856d5ef2b6de5&rating=4
+ Wed Apr 10 2024 15:04:01 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":4,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:17:28 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":1,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:18:05 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:22:33 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:23:32 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:23:48 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:24:43 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:24:57 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:25:07 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:25:24 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:26:34 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:27:04 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:29:24 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:30:20 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":12,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:30:39 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:31:05 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:32:52 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:33:39 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:34:13 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:34:47 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:35:02 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:35:20 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:35:45 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:36:06 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:36:24 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:37:00 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:37:18 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:37:29 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:37:39 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:38:09 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:39:20 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Wed Apr 10 2024 15:39:42 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Thu Apr 11 2024 00:55:16 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":10,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct
+ Thu Apr 11 2024 00:56:33 GMT+0530 (India Standard Time) + ". LogData: " + {"rating":5,"productID":"66127f046f8856d5ef2b6de5"}/api/products/rateProduct

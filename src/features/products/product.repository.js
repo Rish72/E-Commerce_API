@@ -59,16 +59,48 @@ class ProductRepository {
     }
   }
 
+  // async rating(userID, productID, rating) {
+  //   try {
+  //     const db = getDB();
+  //     const collection = db.collection(this.collection);
+  //     const product = await collection.findOne({_id : new ObjectId(productID)})
+  //     console.log("USER ID: "+new ObjectId(userID));
+  //     const userRating = product?.rating?.find( (r) => {
+  //       return r.userID == userID;
+  //     })
+  //     if(userRating){
+  //       await collection.updateOne({
+  //         _id : new ObjectId(productID), "rating.userID":(userID)
+  //       },{
+  //         $set : {
+  //           "rating.$.rating" : rating
+  //         }
+  //       })
+  //     }else {
+  //       await collection.updateOne(
+  //         { _id: new ObjectId(productID) },
+  //         {
+  //           $push: { rating: { rating, userID } },
+  //         }
+  //       );
+  //     }
+  //   } catch (error) {
+  //     console.log("error: " + err);
+  //   }
+  // }
   async rating(userID, productID, rating) {
     try {
       const db = getDB();
       const collection = db.collection(this.collection);
-      return await collection.updateOne(
-        { _id: new ObjectId(productID) },
-        {
-          $push: { rating: { rating, userID } },
-        }
-      );
+
+      // to stop user from performing same task from 2 differenct computer called Racing we can do this
+      
+      await collection.updateOne({ _id: new ObjectId(productID), }, {
+        $pull: { ratings: {userID: new ObjectId(userID)}}
+      })
+
+      await collection.updateOne({_id : new ObjectId(productID)}, {$push : {ratings: {userID : new ObjectId}, rating}})
+     
     } catch (error) {
       console.log("error: " + err);
     }
